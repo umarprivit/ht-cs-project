@@ -24,7 +24,7 @@ body {
     background-image: url('assets/images/bg.jpg');
     background-position: center center;
 
-    background-size: max(1400px, 100vw);
+    background-size: max(1300px, 100vw);
     background-repeat: no-repeat;
 
     height: 70vh;
@@ -268,7 +268,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    height: 80vh;
+    height: 100vh;
 }
 
 .faqs> div:hover {
@@ -299,9 +299,12 @@ footer> div{
 }
 
 footer{
-    height: 25vh;
+    height: 50vh;
     width: 60vw;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -347,33 +350,33 @@ footer{
 
    
     .centerText> :nth-child(1) {
-        font-size: 32px;
+        font-size: 25px;
         /* width: 40vw; */
         letter-spacing: -2.6px;
         text-align: center;
         line-height: 1.34em;
-        font-weight: 700;
+        font-weight: 600;
     
     }
     
 
     .centerText> :nth-child(2) {
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 300;
         text-align: center;
     
     }
     
     .centerText> :nth-child(3) {
-        font-size: 14px;
+        font-size: 9px;
         text-align: center;
     }
     
     .tv-bg :nth-child(1){
-        width: 300px;
+        width: 250px;
     }
     .tv-bg :nth-child(2){
-        width: 300px;
+        width: 250px;
         margin-left: -300px;
         margin-top: 16px;
         position: absolute;
@@ -381,7 +384,7 @@ footer{
 
     .faqs>h1 {
         
-        font-size: 28px;
+        font-size: 24px;
         width: 80%;
         
     
@@ -389,7 +392,7 @@ footer{
     
     .ques :first-child {
         
-        font-size: 12px;
+        font-size: 10px;
         
     }
     
@@ -430,6 +433,12 @@ footer{
     }
     #logo img{
         width:125px;
+    }
+
+    .centerText {
+        
+        height: calc(100% - 59px);
+            
     }
 
 }
